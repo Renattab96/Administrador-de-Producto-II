@@ -1,0 +1,29 @@
+*{
+    align-items: center;
+    text-align: center;
+}
+
+.ContenFormulario {
+    color:black;
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid black; */
+    padding: 20px  10px;
+    margin:10px 80px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border: solid 0.5px rgba(204, 200, 200, 0.79);
+    margin: 20px;
+    padding:10px;
+    background-color: rgba(194, 189, 189, 0.825);
+}
